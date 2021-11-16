@@ -10,7 +10,7 @@ public class StandardAccount implements IAccount {
         {
             this.AccountNumber = accountNumber;
             this.CreditLimit = creditLimit;
-            if (this.CreditLimit > 0)
+            if (this.CreditLimit >= 0)
             {
                 this.CreditLimit =0;
             }
